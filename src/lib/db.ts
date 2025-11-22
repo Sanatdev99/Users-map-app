@@ -1,0 +1,1 @@
+import{openDB}from'idb';export const getDb=async()=>openDB('users-map-db',1,{upgrade(db){if(!db.objectStoreNames.contains('users'))db.createObjectStore('users',{keyPath:'id'});if(!db.objectStoreNames.contains('polygons'))db.createObjectStore('polygons',{keyPath:'id'});}});

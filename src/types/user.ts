@@ -1,0 +1,1 @@
+export type Gender='male'|'female'|'other';export interface User{id:string;firstName:string;lastName:string;birthdate:string;gender:Gender;createdAt:string;}

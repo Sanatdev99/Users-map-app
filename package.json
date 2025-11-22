@@ -1,0 +1,48 @@
+{
+	"type": "module",
+	"name": "users-map-app",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint . --ext .ts,.tsx",
+		"format": "prettier --write .",
+		"typecheck": "tsc --noEmit"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"dependencies": {
+		"@hookform/resolvers": "^3.0.0",
+		"@turf/turf": "^6.5.0",
+		"idb": "^7.1.1",
+		"leaflet": "^1.9.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-hook-form": "^7.50.0",
+		"react-leaflet": "^4.2.1",
+		"react-router-dom": "^6.14.0",
+		"uuid": "^9.0.0",
+		"zod": "^3.24.0",
+		"zustand": "^4.4.0"
+	},
+	"devDependencies": {
+		"@types/leaflet": "^1.9.21",
+		"@types/react": "^19.2.6",
+		"@types/react-dom": "^19.2.3",
+		"@types/uuid": "^10.0.0",
+		"@vitejs/plugin-react": "^5.1.1",
+		"autoprefixer": "^10.4.22",
+		"eslint": "^8.46.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-react": "^7.33.0",
+		"eslint-plugin-react-hooks": "^4.6.2",
+		"postcss": "^8.5.6",
+		"prettier": "^3.0.0",
+		"tailwindcss": "^3.4.18",
+		"typescript": "^5.5.0",
+		"vite": "^5.0.0"
+	}
+}

@@ -1,6 +1,6 @@
 # Users Map App
 
-Live demo: https://users-map-2ut4whozt-sanatdev99s-projects.vercel.app/
+Live demo: https://users-map-app-ycb6.vercel.app/
 
 ## Summary
 A Vite + React + TypeScript app for managing users (CRUD) and drawing polygons on a map.
